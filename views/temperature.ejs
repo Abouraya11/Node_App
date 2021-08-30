@@ -1,0 +1,17 @@
+<html lang="en">
+<%- include("./partials/head.ejs") %>
+
+<body>
+  <%- include("./partials/nav.ejs") %>
+
+  <div class="temps content">
+    <h2>Current Temperature </h2>
+
+          <h3 class="name">City Name: <%= name %></h3>
+          <h3 class="temp">Temperature: <%= temp %> Celsius</h3> 
+          <h3 class="humidity">Humidity: <%= humidity %> %</h3> 
+          
+
+  <%- include("./partials/footer.ejs") %>
+</body>
+</html>
